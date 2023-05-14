@@ -1,0 +1,78 @@
+[
+    {
+        "id": 1,
+        "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png",
+        "jobTitle": "Software Engineer",
+        "companyName": "Google",
+        "jobType": "Remote",
+        "jobTime": "Full-time",
+        "location": "Mountain View, CA",
+        "salary": "100,000",
+        "jobDescription": "We are looking for a talented software engineer to join our team. The ideal candidate will have experience in Java, Python, and SQL. They will also be proficient in using Git and other version control systems. The successful candidate will be responsible for developing new features, fixing bugs, and maintaining our existing codebase.",
+        "jobResponsibilities": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "educationalRequirements": "Bachelor's degree in computer science or a related field",
+        "experiences": "2+ years of experience in software development",
+        "contactInformation": {
+            "phone": "1-800-555-1212",
+            "email": "jobs@google.com",
+            "address": "Dhanmondi 32, Sukrabad, Dhaka, Bangladesh"
+        }
+    },
+    {
+        "id": 1,
+        "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png",
+        "jobTitle": "Software Engineer",
+        "companyName": "Google",
+        "jobType": "Remote",
+        "jobTime": "Full-time",
+        "location": "Mountain View, CA",
+        "salary": "100,000",
+        "jobDescription": "We are looking for a talented software engineer to join our team. The ideal candidate will have experience in Java, Python, and SQL. They will also be proficient in using Git and other version control systems. The successful candidate will be responsible for developing new features, fixing bugs, and maintaining our existing codebase.",
+        "jobResponsibilities": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "educationalRequirements": "Bachelor's degree in computer science or a related field",
+        "experiences": "2+ years of experience in software development",
+        "contactInformation": {
+            "phone": "1-800-555-1212",
+            "email": "jobs@google.com",
+            "address": "Dhanmondi 32, Sukrabad, Dhaka, Bangladesh"
+        }
+    },
+    {
+        "id": 1,
+        "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png",
+        "jobTitle": "Software Engineer",
+        "companyName": "Google",
+        "jobType": "Remote",
+        "jobTime": "Full-time",
+        "location": "Mountain View, CA",
+        "salary": "100,000",
+        "jobDescription": "We are looking for a talented software engineer to join our team. The ideal candidate will have experience in Java, Python, and SQL. They will also be proficient in using Git and other version control systems. The successful candidate will be responsible for developing new features, fixing bugs, and maintaining our existing codebase.",
+        "jobResponsibilities": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "educationalRequirements": "Bachelor's degree in computer science or a related field",
+        "experiences": "2+ years of experience in software development",
+        "contactInformation": {
+            "phone": "1-800-555-1212",
+            "email": "jobs@google.com",
+            "address": "Dhanmondi 32, Sukrabad, Dhaka, Bangladesh"
+        }
+    },
+    {
+        "id": 1,
+        "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png",
+        "jobTitle": "Software Engineer",
+        "companyName": "Google",
+        "jobType": "Remote",
+        "jobTime": "Full-time",
+        "location": "Mountain View, CA",
+        "salary": "100,000",
+        "jobDescription": "We are looking for a talented software engineer to join our team. The ideal candidate will have experience in Java, Python, and SQL. They will also be proficient in using Git and other version control systems. The successful candidate will be responsible for developing new features, fixing bugs, and maintaining our existing codebase.",
+        "jobResponsibilities": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "educationalRequirements": "Bachelor's degree in computer science or a related field",
+        "experiences": "2+ years of experience in software development",
+        "contactInformation": {
+            "phone": "1-800-555-1212",
+            "email": "jobs@google.com",
+            "address": "Dhanmondi 32, Sukrabad, Dhaka, Bangladesh"
+        }
+    }
+]

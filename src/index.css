@@ -1,11 +1,11 @@
 p {
-  font-weight: 600;
-  color: gray;
+    font-weight: 600;
+    color: gray;
 }
-.btn {
+.main-btn {
     background-image: linear-gradient(to right, #938dff 0%, #8f61f1 100%);
     margin: 10px;
-    padding: 15px 35px;
+    padding: 10px 20px;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
@@ -13,11 +13,25 @@ p {
     color: white;
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
-    display: block;
+    /* display: block; */
     font-weight: 600;
+    outline: none;
 }
 
-.btn:hover {
+.main-btn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.outline-btn {
+    transition: 0.5s;
+    font-weight: 600;
+    margin-right: 15px;
+}
+.outline-btn:hover {
+    background-image: linear-gradient(to right, #938dff 0%, #8f61f1 100%);
+    color: black;
     background-position: right center;
     color: #fff;
     text-decoration: none;
