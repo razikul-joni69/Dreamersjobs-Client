@@ -2,6 +2,11 @@ p {
     font-weight: 600;
     color: gray;
 }
+
+a {
+    text-decoration: none;
+}
+
 .main-btn {
     background-image: linear-gradient(to right, #938dff 0%, #8f61f1 100%);
     margin: 10px;

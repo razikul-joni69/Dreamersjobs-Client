@@ -26,7 +26,7 @@ const HomeStatic = () => {
                                 find it. Manage all your job application from
                                 start to finish.
                             </p>
-                            <Button className="btn" variant="info">
+                            <Button className="main-btn" variant="info">
                                 Get Started
                             </Button>{" "}
                         </Col>

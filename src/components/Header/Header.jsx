@@ -11,7 +11,9 @@ const Header = () => {
         <>
             <Navbar bg="light" variant="light">
                 <Container>
-                    <Navbar.Brand href="#home">Dreamers Jobs</Navbar.Brand>
+                    <Navbar.Brand className="fw-bold fs-3" href="#home">
+                        Dreamers Jobs
+                    </Navbar.Brand>
                     <Nav className="m-auto">
                         <ActiveLink
                             to="/"
@@ -24,7 +26,9 @@ const Header = () => {
                         <ActiveLink to="/statistics">Statistics</ActiveLink>
                         <ActiveLink to="/blog">Blog</ActiveLink>
                     </Nav>
-                    <Button variant="info">Apply Now</Button>{" "}
+                    <Button className="main-btn" variant="info">
+                        Apply Now
+                    </Button>{" "}
                 </Container>
             </Navbar>
         </>

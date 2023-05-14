@@ -6,10 +6,10 @@ const ActiveLink = ({ to, children }) => {
     return (
         <NavLink
             to={to}
-            className="nav-link"
+            className="nav-link fw-bold"
             style={({ isActive }) => {
                 return {
-                    color: isActive ? "red" : "",
+                    color: isActive ? "#8f69f3" : "",
                 };
             }}
         >
