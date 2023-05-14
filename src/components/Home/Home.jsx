@@ -1,12 +1,10 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
-import Header from "../Header/Header";
+import HomeStatic from "../HomeStatic/HomeStatic";
 
 const Home = () => {
     return (
         <div>
-            <Header></Header>
-            <Outlet />
+            <HomeStatic></HomeStatic>
         </div>
     );
 };

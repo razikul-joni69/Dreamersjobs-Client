@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "img": "https://img.icons8.com/?size=512&id=lC8aRjojuiLl&format=png",
+        "jobCategory": "Software Engineer",
+        "jobAvailable": "100+"
+    },
+    {
+        "id": 2,
+        "img": "https://img.icons8.com/?size=512&id=osQ0ttYWdlt-&format=png",
+        "jobCategory": "Software ",
+        "jobAvailable": "50+"
+    },
+    {
+        "id": 3,
+        "img": "https://img.icons8.com/?size=512&id=Z5akQIkSDOik&format=png",
+        "jobCategory": "Software Engineer",
+        "jobAvailable": "100+"
+    },
+    {
+        "id": 4,
+        "img": "https://img.icons8.com/?size=512&id=94483&format=png",
+        "jobCategory": " Engineer",
+        "jobAvailable": "100"
+    }
+]

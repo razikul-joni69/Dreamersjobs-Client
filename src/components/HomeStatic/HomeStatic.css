@@ -1,0 +1,23 @@
+.hero__heading {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.hero__heading span {
+    color: #7f8ffe;
+}
+
+.job__catagory {
+    margin: 100px auto;
+}
+
+.job__catagory-card {
+    width: 250px;
+    background-color: #faf8ff;
+    padding: 20px;
+    border-radius: 10px;
+}
+.job__catagory-card img {
+    height: 70px;
+    width: 70px;
+}
