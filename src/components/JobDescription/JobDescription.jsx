@@ -19,13 +19,13 @@ const JobDescription = () => {
     useEffect(() => {
         if (job && jobs) {
             let searchedJob = jobs.find((job) => job.id == id);
-            console.log(searchedJob);
             setJob(searchedJob);
         }
     }, []);
 
     const handleApply = (id) => {
-        let exists = getAppliedJobs().id === id;
+        let getLocalStorage = Object.keys(getAppliedJobs());
+        const exists = getLocalStorage.find(jobId => jobId == id)
         if (!exists) {
             addToDb(id);
             Swal.fire({
@@ -89,7 +89,7 @@ const JobDescription = () => {
                                         height: "18px",
                                         color: "#9176f8",
                                     }}
-                                    class=" me-2 text-gray-500"
+                                    className=" me-2 text-gray-500"
                                 />
                                 <span className="text-dark fw-bold">
                                     Job Title:{" "}
@@ -103,7 +103,7 @@ const JobDescription = () => {
                                         height: "18px",
                                         color: "#9176f8",
                                     }}
-                                    class=" me-2 text-gray-500"
+                                    className=" me-2 text-gray-500"
                                 />
                                 <span className="text-dark fw-bold">
                                     Salary:{" "}
@@ -121,7 +121,7 @@ const JobDescription = () => {
                                         height: "18px",
                                         color: "#9176f8",
                                     }}
-                                    class=" me-2 text-gray-500"
+                                    className=" me-2 text-gray-500"
                                 />
                                 <span className="text-dark fw-bold">
                                     Phone:{" "}
@@ -137,7 +137,7 @@ const JobDescription = () => {
                                         height: "18px",
                                         color: "#9176f8",
                                     }}
-                                    class=" me-2 text-gray-500"
+                                    className=" me-2 text-gray-500"
                                 />
                                 <span className="text-dark fw-bold">
                                     Email:{" "}
@@ -153,7 +153,7 @@ const JobDescription = () => {
                                         height: "18px",
                                         color: "#9176f8",
                                     }}
-                                    class=" me-2 text-gray-500"
+                                    className=" me-2 text-gray-500"
                                 />
                                 <span className="text-dark fw-bold">
                                     Address:{" "}
@@ -165,7 +165,7 @@ const JobDescription = () => {
                         </div>
                         <Button
                             onClick={() => handleApply(job.id)}
-                            className="main-btn w-100"
+                            className="main-btn w-100 m-0 mt-3"
                             size="lg"
                         >
                             Apply Now
