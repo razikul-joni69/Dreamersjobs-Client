@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Button, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const AvailableJobs = () => {
     const [allJobs, setAllJobs] = useState([]);
@@ -22,7 +23,7 @@ const AvailableJobs = () => {
             </p>
             <Row className="g-3 justify-content-between">
                 {featuredJobs.map((job) => (
-                    <div className="card col-md-6">
+                    <div key={job.id} className="card col-md-6">
                         <img
                             className="pt-3"
                             style={{ width: "100px" }}
@@ -50,7 +51,9 @@ const AvailableJobs = () => {
                             <p>{job.salary}</p>
                         </div>
                         <div>
-                            <Button className="main-btn">View Details</Button>
+                            <Button className="main-btn">
+                                <Link to={`/job/${job.id}`} className="text-white">View Details</Link>
+                            </Button>
                         </div>
                     </div>
                 ))}

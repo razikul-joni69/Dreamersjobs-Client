@@ -53,7 +53,7 @@ const HomeStatic = () => {
                             <div className="job__catagory-card" key={job.id}>
                                 <img src={job.img} alt="" />
                                 <h4 className="mt-3 mb-2">{job.jobCategory}</h4>
-                                <p>{job.jobAvailable}</p>
+                                <p>{job.jobAvailable} Jobs Available</p>
                             </div>
                         );
                     })}
