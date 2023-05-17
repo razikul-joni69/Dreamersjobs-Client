@@ -5,27 +5,18 @@ import {
     MapPinIcon,
     PhoneIcon,
 } from "@heroicons/react/24/solid";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
-import { useLoaderData, useParams } from "react-router-dom";
+import { useLoaderData } from "react-router-dom";
 import Swal from "sweetalert2";
 import { addToDb, getAppliedJobs } from "../../utilities/fakedb";
 
 const JobDescription = () => {
-    const [job, setJob] = useState({});
-    const jobs = useLoaderData();
-    let { id } = useParams();
-
-    useEffect(() => {
-        if (job && jobs) {
-            let searchedJob = jobs.find((job) => job.id == id);
-            setJob(searchedJob);
-        }
-    }, []);
+    const job = useLoaderData();
 
     const handleApply = (id) => {
         let getLocalStorage = Object.keys(getAppliedJobs());
-        const exists = getLocalStorage.find(jobId => jobId == id)
+        const exists = getLocalStorage.find((jobId) => jobId == id);
         if (!exists) {
             addToDb(id);
             Swal.fire({

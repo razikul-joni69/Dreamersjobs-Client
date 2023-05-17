@@ -9,7 +9,9 @@ import JobDescription from "./components/JobDescription/JobDescription.jsx";
 import Layout from "./components/Layout/Layout.jsx";
 import Statistics from "./components/Statistics/Statistics.jsx";
 import "./index.css";
+import allJobsLoader from "./loaders/allJobsLoader.js";
 import appliedJobsLoader from "./loaders/appliedJobsLoader.js";
+import loadJobById from "./loaders/loadJobById.js";
 
 const router = createBrowserRouter([
     {
@@ -19,15 +21,17 @@ const router = createBrowserRouter([
             {
                 path: "/",
                 element: <Home></Home>,
+                loader: allJobsLoader,
             },
             {
                 path: "applied-jobs",
                 element: <Appliedjobs></Appliedjobs>,
-                loader: appliedJobsLoader
+                loader: appliedJobsLoader,
             },
             {
                 path: "statistics",
                 element: <Statistics />,
+                loader: appliedJobsLoader,
             },
             {
                 path: "blog",
@@ -36,7 +40,7 @@ const router = createBrowserRouter([
             {
                 path: "job/:id",
                 element: <JobDescription></JobDescription>,
-                loader: () => fetch("jobs.json"),
+                loader: ({ params }) => loadJobById(params.id),
             },
         ],
     },

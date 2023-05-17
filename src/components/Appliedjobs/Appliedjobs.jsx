@@ -4,11 +4,13 @@ import { Button, Container } from "react-bootstrap";
 import { useLoaderData } from "react-router-dom";
 import "./AppliedJobs.css";
 const Appliedjobs = () => {
-    const appliedJobs = useLoaderData();
+    let appliedJobs = useLoaderData();
 
     return (
         <div>
-            <h1 className="text-center pt-5 pb-5 bg-light">Applied Jobs</h1>
+            <h1 className="text-center pt-5 pb-5 bg-light">
+                Applied Jobs {appliedJobs.length}
+            </h1>
             <Container>
                 <div>
                     {" "}

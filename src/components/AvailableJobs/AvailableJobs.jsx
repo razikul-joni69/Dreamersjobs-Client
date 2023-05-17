@@ -1,19 +1,22 @@
 import React, { useEffect, useState } from "react";
 import { Button, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { useLoaderData } from "react-router-dom";
 
 const AvailableJobs = () => {
     const [allJobs, setAllJobs] = useState([]);
-    const [featuredJobs, setJobs] = useState([]);
-
-    useEffect(() => {
-        fetch("jobs.json")
-            .then((res) => res.json())
-            .then((data) => {
-                data.slice(0, 2);
-                return setJobs(data);
-            });
-    }, []);
+    let featuredJobs = useLoaderData();
+    // const [featuredJobs, setJobs] = useState([]);
+    // console.log(appliedJobs)
+    // useEffect(() => {
+    //     fetch("jobs.json")
+    //         .then((res) => res.json())
+    //         .then((data) => {
+    //             data.slice(0, 2);
+    //             return setJobs(data);
+    //         });
+    //     console.log( fetch("jobs.json"))
+    // }, []);
     return (
         <Container style={{ marginBottom: "100px" }}>
             <h1 className="text-center">Featured Jobs</h1>
