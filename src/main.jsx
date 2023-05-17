@@ -7,6 +7,7 @@ import Blog from "./components/Blog/Blog.jsx";
 import Home from "./components/Home/Home.jsx";
 import JobDescription from "./components/JobDescription/JobDescription.jsx";
 import Layout from "./components/Layout/Layout.jsx";
+import NotFound from "./components/NotFound/NotFound.jsx";
 import Statistics from "./components/Statistics/Statistics.jsx";
 import "./index.css";
 import allJobsLoader from "./loaders/allJobsLoader.js";
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
                 loader: ({ params }) => loadJobById(params.id),
             },
         ],
+    },
+    {
+        path: "*",
+        element: <NotFound></NotFound>,
     },
 ]);
 
