@@ -2,64 +2,7 @@
     {
         "id": 1125,
         "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png",
-        "jobTitle": "Software Engineer",
-        "companyName": "Google",
-        "jobType": "Remote",
-        "jobTime": "Full-time",
-        "location": "Mountain View, CA",
-        "salary": "100,000",
-        "jobDescription": "We are looking for a talented software engineer to join our team. The ideal candidate will have experience in Java, Python, and SQL. They will also be proficient in using Git and other version control systems. The successful candidate will be responsible for developing new features, fixing bugs, and maintaining our existing codebase.",
-        "jobResponsibilities": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-        "educationalRequirements": "Bachelor's degree in computer science or a related field",
-        "experiences": "2+ years of experience in software development",
-        "contactInformation": {
-            "phone": "1-800-555-1212",
-            "email": "jobs@google.com",
-            "address": "Dhanmondi 32, Sukrabad, Dhaka, Bangladesh"
-        }
-    },
-    {
-        "id": 1126,
-        "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png",
-        "jobTitle": "Software Engineer",
-        "companyName": "Google",
-        "jobType": "Remote",
-        "jobTime": "Full-time",
-        "location": "Mountain View, CA",
-        "salary": "100,000",
-        "jobDescription": "We are looking for a talented software engineer to join our team. The ideal candidate will have experience in Java, Python, and SQL. They will also be proficient in using Git and other version control systems. The successful candidate will be responsible for developing new features, fixing bugs, and maintaining our existing codebase.",
-        "jobResponsibilities": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-        "educationalRequirements": "Bachelor's degree in computer science or a related field",
-        "experiences": "2+ years of experience in software development",
-        "contactInformation": {
-            "phone": "1-800-555-1212",
-            "email": "jobs@google.com",
-            "address": "Dhanmondi 32, Sukrabad, Dhaka, Bangladesh"
-        }
-    },
-    {
-        "id": 1127,
-        "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png",
-        "jobTitle": "Software Engineer",
-        "companyName": "Google",
-        "jobType": "Remote",
-        "jobTime": "Full-time",
-        "location": "Mountain View, CA",
-        "salary": "100,000",
-        "jobDescription": "We are looking for a talented software engineer to join our team. The ideal candidate will have experience in Java, Python, and SQL. They will also be proficient in using Git and other version control systems. The successful candidate will be responsible for developing new features, fixing bugs, and maintaining our existing codebase.",
-        "jobResponsibilities": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-        "educationalRequirements": "Bachelor's degree in computer science or a related field",
-        "experiences": "2+ years of experience in software development",
-        "contactInformation": {
-            "phone": "1-800-555-1212",
-            "email": "jobs@google.com",
-            "address": "Dhanmondi 32, Sukrabad, Dhaka, Bangladesh"
-        }
-    },
-    {
-        "id": 1128,
-        "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png",
-        "jobTitle": "Software Engineer",
+        "jobTitle": "Technical Database Engineer",
         "companyName": "Google LLC",
         "jobType": "Remote",
         "jobTime": "Full-time",
@@ -68,11 +11,106 @@
         "jobDescription": "We are looking for a talented software engineer to join our team. The ideal candidate will have experience in Java, Python, and SQL. They will also be proficient in using Git and other version control systems. The successful candidate will be responsible for developing new features, fixing bugs, and maintaining our existing codebase.",
         "jobResponsibilities": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
         "educationalRequirements": "Bachelor's degree in computer science or a related field",
+        "experiences": "4+ years of experience in Database Engineer",
+        "contactInformation": {
+            "phone": "1-800-555-1212",
+            "email": "jobs@google.com",
+            "address": "California, USA"
+        }
+    },
+    {
+        "id": 1126,
+        "companyLogo": "https://www.supplychain247.com/images/logos/tesla_logo_600.png",
+        "jobTitle": "Software Engineer",
+        "companyName": "Tesla",
+        "jobType": "Onsite",
+        "jobTime": "Full-time",
+        "location": "Mountain View, CA",
+        "salary": "80,000",
+        "jobDescription": "We are looking for a talented software engineer to join our team. The ideal candidate will have experience in Java, Python, and SQL. They will also be proficient in using Git and other version control systems. The successful candidate will be responsible for developing new features, fixing bugs, and maintaining our existing codebase.",
+        "jobResponsibilities": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "educationalRequirements": "Bachelor's degree in computer science or a related field",
+        "experiences": "3+ years of experience in software Engineer",
+        "contactInformation": {
+            "phone": "1-800-555-1212",
+            "email": "jobs@tesla.com",
+            "address": "Austin, Texas, USA"
+        }
+    },
+    {
+        "id": 1127,
+        "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1200px-Netflix_2015_logo.svg.png",
+        "jobTitle": "Senior Product Designer",
+        "companyName": "Netflix",
+        "jobType": "Remote",
+        "jobTime": "Part-time",
+        "location": "Dhaka, Bangladesh",
+        "salary": "100,000",
+        "jobDescription": "We are looking for a talented software engineer to join our team. The ideal candidate will have experience in Java, Python, and SQL. They will also be proficient in using Git and other version control systems. The successful candidate will be responsible for developing new features, fixing bugs, and maintaining our existing codebase.",
+        "jobResponsibilities": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "educationalRequirements": "Bachelor's degree in computer science or a related field",
+        "experiences": "2+ years of experience in Product Designer",
+        "contactInformation": {
+            "phone": "1-800-555-1212",
+            "email": "jobs@netflix.com",
+            "address": "London, UK"
+        }
+    },
+    {
+        "id": 1128,
+        "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Hyundai_Motor_Company_logo.svg/2560px-Hyundai_Motor_Company_logo.svg.png",
+        "jobTitle": "UI/UX Designer",
+        "companyName": "Hundai",
+        "jobType": "Remote",
+        "jobTime": "Part-time",
+        "location": "Mumbai, India",
+        "salary": "50,000",
+        "jobDescription": "We are looking for a talented software engineer to join our team. The ideal candidate will have experience in Java, Python, and SQL. They will also be proficient in using Git and other version control systems. The successful candidate will be responsible for developing new features, fixing bugs, and maintaining our existing codebase.",
+        "jobResponsibilities": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "educationalRequirements": "Bachelor's degree in computer science or a related field",
+        "experiences": "2+ years of experience in UI/Ux design",
+        "contactInformation": {
+            "phone": "1-800-555-1212",
+            "email": "jobs@hundai.com",
+            "address": "North Korea"
+        }
+    },
+    {
+        "id": 1129,
+        "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png",
+        "jobTitle": "Software Engineer last",
+        "companyName": "Google LLC",
+        "jobType": "Remote",
+        "jobTime": "Full-time",
+        "location": "Dhaka, Bangladesh",
+        "salary": "100,000",
+        "jobDescription": "We are looking for a talented software engineer to join our team. The ideal candidate will have experience in Java, Python, and SQL. They will also be proficient in using Git and other version control systems. The successful candidate will be responsible for developing new features, fixing bugs, and maintaining our existing codebase.",
+        "jobResponsibilities": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "educationalRequirements": "Bachelor's degree in computer science or a related field",
         "experiences": "2+ years of experience in software development",
         "contactInformation": {
             "phone": "1-800-555-1212",
             "email": "jobs@google.com",
-            "address": "Dhanmondi 32, Sukrabad, Dhaka, Bangladesh"
+            "address": "Mountain View, CA"
+        }
+    },
+    {
+        "id": 1130,
+        "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Meta_Platforms_Inc._logo.svg/2560px-Meta_Platforms_Inc._logo.svg.png",
+        "jobTitle": "Junior Software Engineer",
+        "companyName": "Meta",
+        "jobType": "Onsite",
+        "jobTime": "Full-time",
+        "location": "Dhaka, Bangladesh",
+        "salary": "60,000",
+        "jobDescription": "We are looking for a talented software engineer to join our team. The ideal candidate will have experience in Java, Python, and SQL. They will also be proficient in using Git and other version control systems. The successful candidate will be responsible for developing new features, fixing bugs, and maintaining our existing codebase.",
+        "jobResponsibilities": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "educationalRequirements": "Bachelor's degree in computer science or a related field",
+        "experiences": "1+ years of experience in software development",
+        "contactInformation": {
+            "phone": "1-800-555-1212",
+            "email": "jobs@meta.com",
+            "address": "California, US"
         }
     }
 ]

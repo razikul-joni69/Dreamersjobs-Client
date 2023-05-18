@@ -1,3 +1,13 @@
+.filter__btn {
+    margin: 50px 0 20px 0;
+    display: flex;
+    justify-content: end;
+}
+
+.filter__form {
+    width: 200px;
+}
+
 .review__job {
     border: 1px solid #95a0a7;
     border-radius: 10px;

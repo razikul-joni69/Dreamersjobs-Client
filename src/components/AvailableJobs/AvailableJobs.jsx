@@ -1,10 +1,24 @@
 import { CurrencyDollarIcon, MapPinIcon } from "@heroicons/react/24/outline";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { Link, useLoaderData } from "react-router-dom";
 const AvailableJobs = () => {
-    const [allJobs, setAllJobs] = useState([]);
-    let featuredJobs = useLoaderData();
+    const [jobs, setJobs] = useState([]);
+    let allJobs = useLoaderData();
+
+    useEffect(() => {
+        let featuredJobs = allJobs.slice(0, 4);
+        setJobs(featuredJobs);
+    }, []);
+
+    const handleViewAllJobs = () => {
+        setJobs(allJobs);
+    };
+    const handleViewFeaturedJobs = () => {
+        let featuredJobs = allJobs.slice(0, 4);
+        setJobs(featuredJobs);
+    };
+
     return (
         <Container style={{ marginBottom: "100px" }}>
             <h1 className="text-center">Featured Jobs</h1>
@@ -13,15 +27,15 @@ const AvailableJobs = () => {
                 you need. Its your future
             </p>
             <Row className="g-3 justify-content-between">
-                {featuredJobs.map((job) => (
+                {jobs.map((job) => (
                     <Col md={6} key={job.id} className="card  p-3">
                         <img
                             className=""
-                            style={{ width: "100px" }}
+                            style={{ width: "150px", height: "45px" }}
                             src={job.companyLogo}
                             alt=""
                         />
-                        <h4>{job.jobTitle}</h4>
+                        <h4 className="mt-3 mb-2">{job.jobTitle}</h4>
                         <p>{job.companyName}</p>
                         <div>
                             <Button
@@ -71,9 +85,21 @@ const AvailableJobs = () => {
                     </Col>
                 ))}
             </Row>
-            <Button className="main-btn d-block mx-auto mt-4">
-                View All Jobs
-            </Button>
+            {allJobs.length === jobs.length ? (
+                <Button
+                    onClick={handleViewFeaturedJobs}
+                    className="main-btn d-block mx-auto mt-4"
+                >
+                    View Featured Jobs
+                </Button>
+            ) : (
+                <Button
+                    onClick={handleViewAllJobs}
+                    className="main-btn d-block mx-auto mt-4"
+                >
+                    View All Jobs
+                </Button>
+            )}
         </Container>
     );
 };
