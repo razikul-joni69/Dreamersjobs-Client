@@ -42,6 +42,18 @@ a {
     text-decoration: none;
 }
 
+.cover__img {
+    background-image: url("/cover.png");
+    background-color: #f9f9ff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

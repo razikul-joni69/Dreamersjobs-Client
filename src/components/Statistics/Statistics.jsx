@@ -47,8 +47,10 @@ const Statistics = () => {
     ];
     return (
         <div>
-            <Container>
-                <h1 className="text-center mt-5 mb-5">Assignment Marks</h1>
+            <div className="cover__img">
+                <h1 className="">Assignment Marks</h1>
+            </div>
+            <Container className="mt-5 mb-5">
                 <ResponsiveContainer width="100%" height={600}>
                     <ComposedChart
                         width={600}

@@ -1,22 +1,10 @@
-import React, { useEffect, useState } from "react";
-import { Button, Container, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import { useLoaderData } from "react-router-dom";
-
+import { CurrencyDollarIcon, MapPinIcon } from "@heroicons/react/24/outline";
+import React, { useState } from "react";
+import { Button, Col, Container, Row } from "react-bootstrap";
+import { Link, useLoaderData } from "react-router-dom";
 const AvailableJobs = () => {
     const [allJobs, setAllJobs] = useState([]);
     let featuredJobs = useLoaderData();
-    // const [featuredJobs, setJobs] = useState([]);
-    // console.log(appliedJobs)
-    // useEffect(() => {
-    //     fetch("jobs.json")
-    //         .then((res) => res.json())
-    //         .then((data) => {
-    //             data.slice(0, 2);
-    //             return setJobs(data);
-    //         });
-    //     console.log( fetch("jobs.json"))
-    // }, []);
     return (
         <Container style={{ marginBottom: "100px" }}>
             <h1 className="text-center">Featured Jobs</h1>
@@ -26,9 +14,9 @@ const AvailableJobs = () => {
             </p>
             <Row className="g-3 justify-content-between">
                 {featuredJobs.map((job) => (
-                    <div key={job.id} className="card col-md-6">
+                    <Col md={6} key={job.id} className="card  p-3">
                         <img
-                            className="pt-3"
+                            className=""
                             style={{ width: "100px" }}
                             src={job.companyLogo}
                             alt=""
@@ -38,7 +26,7 @@ const AvailableJobs = () => {
                         <div>
                             <Button
                                 className="outline-btn"
-                                variant="outline-info"
+                                variant="outline-success"
                             >
                                 {job.jobType}
                             </Button>
@@ -49,16 +37,38 @@ const AvailableJobs = () => {
                                 {job.jobTime}
                             </Button>
                         </div>
-                        <div>
-                            <p>{job.location}</p>
-                            <p>{job.salary}</p>
+                        <div className="d-flex mt-3">
+                            <MapPinIcon
+                                style={{
+                                    height: "20px",
+                                    width: "20px",
+                                    color: "grey",
+                                    marginRight: "5px",
+                                    marginTop: "3px",
+                                }}
+                            />
+                            <p className="me-3">{job.location}</p>
+
+                            <CurrencyDollarIcon
+                                style={{
+                                    height: "20px",
+                                    width: "20px",
+                                    color: "grey",
+                                    marginRight: "5px",
+                                    marginTop: "3px",
+                                }}
+                            />
+                            <p>{job.salary}k (Per Month)</p>
                         </div>
                         <div>
-                            <Button className="main-btn">
-                                <Link to={`/job/${job.id}`} className="text-white">View Details</Link>
-                            </Button>
+                            <Link
+                                className="main-btn m-0 d-inline-block"
+                                to={`/job/${job.id}`}
+                            >
+                                View Details
+                            </Link>
                         </div>
-                    </div>
+                    </Col>
                 ))}
             </Row>
             <Button className="main-btn d-block mx-auto mt-4">

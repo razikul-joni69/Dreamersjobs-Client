@@ -39,7 +39,9 @@ const JobDescription = () => {
 
     return (
         <div>
-            <h1 className="text-center pt-5 pb-5 bg-light">Job Details</h1>
+            <div className="cover__img">
+                <h1 className="">Job Description</h1>
+            </div>
             <Container className="mt-5 mb-5">
                 <Row>
                     <Col md={8}>

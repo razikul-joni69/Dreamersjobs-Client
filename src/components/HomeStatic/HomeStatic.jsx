@@ -6,7 +6,7 @@ const HomeStatic = () => {
     const [jobcatagory, setJobcatagory] = useState([]);
 
     useEffect(() => {
-        fetch("jobcatagory.json")
+        fetch("/jobcatagory.json")
             .then((res) => res.json())
             .then((data) => setJobcatagory(data));
     }, []);
@@ -33,7 +33,7 @@ const HomeStatic = () => {
                         <Col>
                             <img
                                 className="img-fluid"
-                                src="hero-img.png"
+                                src="/hero-img.png"
                                 alt=""
                             />
                         </Col>
