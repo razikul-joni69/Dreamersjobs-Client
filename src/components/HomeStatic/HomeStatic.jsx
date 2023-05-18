@@ -15,7 +15,7 @@ const HomeStatic = () => {
             <div className="bg-light">
                 <Container>
                     <Row className="align-items-center">
-                        <Col>
+                        <Col md={6} className="hero__details">
                             <h1 className="hero__heading">
                                 One Step Close To Your{" "}
                                 <span className="">Dream Job</span>
@@ -30,7 +30,7 @@ const HomeStatic = () => {
                                 Get Started
                             </Button>{" "}
                         </Col>
-                        <Col>
+                        <Col md={6} className="hero__image">
                             <img
                                 className="img-fluid"
                                 src="/hero-img.png"
@@ -47,14 +47,14 @@ const HomeStatic = () => {
                     Explore thousands of job opportunities with all the
                     information you need. Its your future
                 </p>
-                <div className="d-flex justify-content-between">
+                <div className="d-flex flex-wrap justify-content-between">
                     {jobcatagory.map((job) => {
                         return (
-                            <div className="job__catagory-card" key={job.id}>
+                            <Col className="job__catagory-card" key={job.id}>
                                 <img src={job.img} alt="" />
                                 <h4 className="mt-3 mb-2">{job.jobCategory}</h4>
                                 <p>{job.jobAvailable} Jobs Available</p>
-                            </div>
+                            </Col>
                         );
                     })}
                 </div>

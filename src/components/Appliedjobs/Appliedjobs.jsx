@@ -43,7 +43,12 @@ const Appliedjobs = () => {
                                         </p>
                                     </span>
                                 </div>
-                                <Button variant="info">View Details</Button>{" "}
+                                <Button
+                                    className="main-btn m-0 text-white details__btn"
+                                    variant="info"
+                                >
+                                    View Details
+                                </Button>{" "}
                             </div>
                         );
                     })}

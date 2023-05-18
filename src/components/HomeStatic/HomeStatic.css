@@ -12,12 +12,27 @@
 }
 
 .job__catagory-card {
-    width: 250px;
+    min-width: 200px;
     background-color: #faf8ff;
     padding: 20px;
     border-radius: 10px;
+    margin: 10px;
 }
 .job__catagory-card img {
     height: 70px;
     width: 70px;
+}
+
+.hero__details {
+    margin-top: 30px;
+}
+
+.hero__image {
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .hero__image {
+        margin-bottom: -70px;
+    }
 }
